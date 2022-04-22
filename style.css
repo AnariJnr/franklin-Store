@@ -1,10 +1,7 @@
 /* CLASSES */
 body {
-  overflow: hidden;
-  background: url(images/legblur3.jpg);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+    overflow: hidden;
+  background-color: #ecedf1;
   font-family: "Montserrat";
 }
 

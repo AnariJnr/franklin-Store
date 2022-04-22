@@ -1,0 +1,373 @@
+
+
+body{
+
+  background-color: white;
+  font-family: "Montserrat";
+
+}
+
+html {
+  height: 100%;
+}
+/* CLASSES */
+/* top part */
+.base{
+  margin: 3% auto;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+.container-fluid .base{
+  margin: 0 0 3% 0;
+}
+
+.container-fluid{
+    padding: 1% 8% 0%;
+}
+
+.fikBrand{
+  color: #414f50;
+  padding: 0 4px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+
+}
+
+a.fikBrand{
+  text-decoration: none;
+}
+
+.fikBrand:hover{
+  color:#648595;
+}
+
+.fiklogo{
+  border-radius: 50%;
+  width: 30px;
+  margin: 40px 0 42px 0;
+  animation: spinner 0.8s linear infinite;
+
+}
+
+
+.help{
+  width: 90px;
+  margin: 0 0 0 70%;
+  position: absolute;
+  top:3%;
+  right: 10%;
+}
+
+.icon-2 {
+  margin: 0 10px;
+}
+
+.icon-2:hover{
+  color: #03a9f4;
+}
+
+.promoads{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+}
+
+.promosale{
+  background-color: #5a7897;
+  padding: 2% 10%;
+  color: white;
+  text-align: center;
+}
+
+.promopic{
+  width: 38%;
+}
+
+
+.salesresize{
+  width: 100%;
+  border-radius: 2%;
+}
+
+.slides a{
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+.slides{
+
+
+}
+
+.slides a:hover{
+  color:#648595;
+}
+
+
+.sneakers a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.sneakers a:hover{
+  color: #648595;
+}
+
+
+
+.text-dark {
+    color: #343a40!important;
+    margin: 4% 0 0 0;
+}
+
+
+.thumbnail {
+  width: 50px;
+}
+
+.USflag{
+  width: 50px;
+}
+
+
+h3.intro{
+  line-height: 1.5;
+  color: #414f50;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  margin-bottom: 25px;
+  opacity: 4;
+  margin: 0 0 0 1.4%;
+}
+
+
+/* ids */
+
+#footer{
+  padding: 6% 10% 5% ;
+  text-align: center;
+  color: black;
+}
+
+#sales{
+padding: 70px;
+}
+
+#sneakers{
+
+
+
+}
+
+
+/* keyframes */
+
+@keyframes spinner {
+
+  to{
+    transform: rotate(360deg);
+  }
+
+}
+
+
+
+
+/* @media query */
+
+
+ @media (max-width: 1023px) {
+
+   .base{
+     margin: 8.5% auto 2%;
+     font-family: "Ubuntu";
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: black;
+   }
+
+}
+
+
+@media (max-width: 991px) {
+  #footer{
+    padding: 9% 10% 2%;
+    text-align: center;
+    color: black;
+  }
+
+  .base{
+    margin: 10% auto 3%;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+  }
+
+
+
+}
+
+ @media (max-width: 767px) {
+
+
+   #footer{
+     padding: 11% 10% 0;
+     text-align: center;
+     color: black;
+   }
+
+   .base{
+     margin: 13% auto 4%;
+     font-family: "Ubuntu";
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: black;
+   }
+
+
+ }
+
+
+/* shop part */
+
+h1{
+  font-weight: 800;
+
+}
+
+p{
+  font-weight: 500;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0.2%;
+}
+
+.row .column{
+  flex: 33.3%;
+  width: auto;
+  overflow: hidden;
+  padding: 0 4px;
+  height: 100%;
+}
+
+.shoe-name{
+  margin: -10% auto 0;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: block;
+  text-align: left;
+  }
+
+
+
+
+.order-btn{
+  margin: 1% 0 0 0;
+  position: relative;
+  bottom:42px;
+
+}
+
+.row .column img{
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  /* filter: grayscale(1) brightness(0.5); */
+  border-radius: 5px;
+  transition: 0.3s linear;
+}
+
+.row .column img:hover{
+  filter: grayscale(0) brightness(1);
+}
+
+/* make it resposive */
+
+@media only screen and (max-width: 991px){
+  .row .column{
+    flex:100%;
+
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .row .column{
+    flex:100%;
+  }
+
+  .row .column img{
+
+    filter: grayscale(0) brightness(1);
+
+  }
+}
+
+@media (max-width: 991px) {
+
+
+    h3.intro{
+      font-size: 2rem;
+    }
+
+
+  .fikBrand {
+    color: #414f50;
+    padding: 0 4px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+.fiklogo{
+  border-radius: 50%;
+
+  margin: 40px 0 50px 0;
+  width: 6%;
+}
+
+#footer{
+  font-size: 1.4rem
+}
+
+.order-btn{
+    margin: 1% 0 0 0;
+    position: relative;
+    bottom:84px;
+    font-size: 250%;
+  }
+
+  .shoe-name{
+    margin: -10% auto 0;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    display: block;
+    text-align: left;
+    }
+
+    .sneakers a{
+      font-size: 1.6rem;
+    }
+
+    .slides a {
+      font-size: 1.6rem;
+    }
+
+
+}

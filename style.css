@@ -1,0 +1,197 @@
+/* CLASSES */
+body {
+  overflow: hidden;
+  background: url(images/legblur3.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: "Montserrat";
+}
+
+html {
+  height: 100%;
+}
+
+/* classes */
+.container-fluid {
+  padding: 1% 8% 4%;
+}
+
+/* keframe spinner */
+.fiklogo {
+  border-radius: 50%;
+  width: 30px;
+  margin: 15px 0 20px 0;
+  animation: spinner 0.8s linear infinite;
+}
+
+.icons a {
+  color: black;
+}
+
+.icon-2 {
+  margin: 0 10px;
+}
+
+.icon-2:hover {
+  color: #03a9f4;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h5 {
+  line-height: 1.5;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  opacity: 4;
+}
+
+.navbar-brand {
+  padding: 0 4px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-border {
+  border-bottom: 1px solid black;
+}
+
+.navbar-dark .navbar-brand {
+  color: #414f50;
+}
+
+.navbar-dark .navbar-toggler {
+  color: black;
+  border-color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #1a132f;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* don't mess with this */
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.trans-box {
+  text-align: center;
+  margin: 90px 0 0;
+}
+
+.trans-box2 {
+  background-color: black;
+  opacity: 0.5;
+  width: 33%;
+  margin: 0 auto;
+  color: white;
+}
+
+.USflag {
+  width: 50px;
+}
+
+/* ids */
+#footer {
+  padding: 6% 10% 5%;
+  text-align: center;
+  color: black;
+}
+
+/* @keyframes */
+/* fiklogo animate */
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media query */
+/* @media (max-width: 1023px) {
+  #landing-nav {
+    text-align: center;
+  }
+
+}
+ */
+@media (max-width: 991px) {
+
+  /* ids */
+  #footer {
+    padding: 9% 10% 2%;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+  }
+
+  /* classes */
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 2rem;
+  }
+
+  .trans-box {}
+
+  .trans-box h5.text {
+    line-height: 1.5;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+
+  .fiklogo {
+    border-radius: 50%;
+    width: 43px;
+    margin: 15px 0 20px 0;
+
+  }
+
+  .navbar-brand {
+    padding: 0 4px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+  .shopnow-btn{
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* classes */
+  .logo h5 {
+    color: black;
+  }
+
+  /* ids */
+  #footer {
+    padding: 11% 10% 0;
+    text-align: center;
+    color: black;
+  }
+}

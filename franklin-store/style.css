@@ -20,6 +20,15 @@ html {
   color: black;
 }
 
+.collections{
+  color: #414f50;
+  padding: 2%;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  margin-left:-7px;
+
+}
+
 .container-fluid .base{
   margin: 0 0 3% 0;
 }
@@ -101,10 +110,7 @@ a.fikBrand{
   text-decoration: none;
   background-color: transparent;
 }
-.slides{
 
-
-}
 
 .slides a:hover{
   color:#648595;
@@ -119,6 +125,12 @@ a.fikBrand{
 
 .sneakers a:hover{
   color: #648595;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    border-radius: 0.3rem;
 }
 
 
@@ -157,7 +169,7 @@ h3.intro{
   padding: 6% 10% 5% ;
   text-align: center;
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 #sales{
@@ -307,11 +319,3 @@ img{
     }
 
     /* IDS */
-
-    #footer {
-      padding: 6% 10% 5%;
-      text-align: center;
-      color: black;
-      background-color: #5a7897;
-      font-size: 1.4rem;
-    }

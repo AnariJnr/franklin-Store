@@ -1,0 +1,315 @@
+
+
+body{
+
+  background-color: white;
+  font-family: "Montserrat";
+
+}
+
+html {
+  height: 100%;
+}
+/* CLASSES */
+/* top part */
+.base{
+  margin: 3% auto;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+.container-fluid .base{
+  margin: 0 0 3% 0;
+}
+
+.container-fluid{
+    padding: 1% 8% 0%;
+}
+
+.fikBrand{
+  color: #414f50;
+  padding: 0 4px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+
+}
+
+a.fikBrand{
+  text-decoration: none;
+}
+
+.fikBrand:hover{
+  color:#648595;
+}
+
+.fiklogo{
+  border-radius: 50%;
+  width: 30px;
+  margin: 40px 0 42px 0;
+  animation: spinner 0.8s linear infinite;
+
+}
+
+
+.help{
+  width: 90px;
+  margin: 0 0 0 70%;
+  position: absolute;
+  top:3%;
+  right: 10%;
+}
+
+.icon-2 {
+  margin: 0 10px;
+}
+
+.icon-2:hover{
+  color: #03a9f4;
+}
+
+.promoads{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+}
+
+.promosale{
+  background-color: #5a7897;
+  padding: 2% 10%;
+  color: white;
+  text-align: center;
+}
+
+.promopic{
+  width: 38%;
+}
+
+
+.salesresize{
+  width: 100%;
+  border-radius: 2%;
+}
+
+.slides a{
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+.slides{
+
+
+}
+
+.slides a:hover{
+  color:#648595;
+}
+
+
+.sneakers a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.sneakers a:hover{
+  color: #648595;
+}
+
+
+
+.text-dark {
+    color: #343a40!important;
+    margin: 4% 0 0 0;
+}
+
+
+.thumbnail {
+  width: 50px;
+}
+
+.USflag{
+  width: 50px;
+}
+
+
+h3.intro{
+  line-height: 1.5;
+  color: #414f50;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  margin-bottom: 25px;
+  opacity: 4;
+  margin: 0 0 0 1.4%;
+}
+
+
+/* ids */
+
+#footer{
+  padding: 6% 10% 5% ;
+  text-align: center;
+  color: black;
+}
+
+#sales{
+padding: 70px;
+}
+
+#sneakers{
+
+
+
+}
+
+
+/* keyframes */
+
+@keyframes spinner {
+
+  to{
+    transform: rotate(360deg);
+  }
+
+}
+
+
+
+
+/* @media query */
+
+
+ @media (max-width: 1023px) {
+
+   .base{
+     margin: 8.5% auto 2%;
+     font-family: "Ubuntu";
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: black;
+   }
+
+}
+
+
+@media (max-width: 991px) {
+  #footer{
+    padding: 9% 10% 2%;
+    text-align: center;
+    color: black;
+  }
+
+  .base{
+    margin: 10% auto 3%;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+  }
+
+
+
+}
+
+ @media (max-width: 767px) {
+
+
+   #footer{
+     padding: 11% 10% 0;
+     text-align: center;
+     color: black;
+   }
+
+   .base{
+     margin: 13% auto 4%;
+     font-family: "Ubuntu";
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: black;
+   }
+
+
+ }
+
+
+/* shop part */
+
+img{
+  max-width: 100%;
+}
+
+/* CLASSES */
+
+.btn-dark {
+    color: #fff;
+    background-color: #414f50;
+    border-color: #414f50;
+}
+
+.fik-slides{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.icons a {
+  color: black;
+}
+
+.icon-2 {
+  margin: 0 10px;
+}
+
+.icon-2:hover {
+  color: #03a9f4;
+}
+
+.gallery{
+
+  padding: 80px 0;
+
+}
+
+.gallery img{
+  background-color: #3a5e67;
+  padding: 0px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+  border-radius: 2%;
+}
+
+
+
+.order-btn{
+  margin: 1% 0 0 0;
+  position: relative;
+  top :62px;
+  left:1px;
+  font-size: 200%;
+  font-family:'Roboto Slab', serif;
+}
+
+.shoe-name{
+    margin: 0 auto 0;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    text-align: left;
+    }
+
+    /* IDS */
+
+    #footer {
+      padding: 6% 10% 5%;
+      text-align: center;
+      color: black;
+      background-color: #5a7897;
+    }
